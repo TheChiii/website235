@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Header Styles */
+.header {
+    background-color: #FFC0CB; /* Pink rose color */
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav a {
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Main Area Styles */
+main {
+    padding: 1rem;
+}
+
+/* Journey Page Styles */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+main img:first-of-type {
+    display: block;
+}
+
+nav a[data-image]:hover + img {
+    display: block;
+}
+
+nav a[data-image]:hover ~ img:first-of-type {
+    display: none;
+}
