@@ -13,17 +13,25 @@
       }
     </style>
   </head>
-  <body>
-    <header class="header">
-      <h1>Viva la Vida</h1>
-      <h2>Chi &amp; Lexie</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="Journey.html">Journey</a>
-        <a href="6851st.html">6851st</a>
-        <a href="GU.html">GU</a>
-      </nav>
-    </header>
+  
+ <body>
+
+<header style="text-align: center; background-color: #ffc0cb;">
+	<img src="logo.jpg" width="434" height="130" alt="logo" />
+	<br />
+	<table align="center" class="menu" style="border-style: none">
+		<tr>
+			<td class="menuicon"><a href="index.html"><img src="Home.jpg" width="50" height="21" alt="Home" /></a></td>
+			<td class="menupipe">|</td>
+			<td class="menuicon"><a href="journey.html"><img src="Journey.jpg" width="50" height="21" alt="Growth" /></a></td>
+			<td class="menupipe">|</td>
+			<td class="menuicon"><a href="502e.html"><img src="502E.jpg" width="50" height="21" alt="curiosity" /></a></td>
+			<td class="menupipe">|</td>
+			<td class="menuicon"><a href="6851st.html"><img src="6851.jpg" width="50" height="21" alt="failure" /></a></td>
+		</tr>
+	</table>
+</header>
+ 
     <main>
       <div>Distance between New York and Spokane: 3502 km</div>
       <div id="anniversary-clock"></div>
@@ -43,6 +51,8 @@
       setInterval(updateClock, 1000 * 60 * 60 * 24); // Update the clock every 24 hours (86400000 milliseconds)
       updateClock(); // Call the function initially to set the clock value
     </script>
+    
+    
   </body>
 </html>
 
